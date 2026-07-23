@@ -5,8 +5,3 @@ create_env:
 
 remove_env:
 	rm -rf ./.venv/switch-discord-rpc
-
-run:
-	. ./.venv/switch-discord-rpc/bin/activate && \
-	source .env.local && \
-	python main.py
