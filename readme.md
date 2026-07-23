@@ -8,4 +8,4 @@ A custom script I made that scrapes [DekuDeals](https://www.dekudeals.com) using
 2. Run `make create_env` to create the venv for this project.
 3. Copy the `.env` file to `.env.local` and populate the `APP_ID` field with the `Application ID` you got earlier.
 4. Activate the venv via `. ./.venv/switch-discord-rpc/bin/activate`.
-5. Run `python main.py "name of the game you want to display"` on a machine with discord logged in and running.
+5. Run `python main.py "name of the game you want to display"` on a machine with discord logged in and running. The name does not need to be exact -- just needs to be close enough that a basic search will yield it as the first result.
