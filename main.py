@@ -81,7 +81,7 @@ def main():
 
     rpc.update(
         state=title,
-        state_url="https://github.com/hritikrg02/switch-discord-rpc",
+        state_url=item_url,
         large_image=image_url,
         large_text=title,
         start=time.time(),
